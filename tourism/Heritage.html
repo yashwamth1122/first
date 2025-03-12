@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Sites</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .heritage-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .heritage-item {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .heritage-item:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="hotel.html">Hotel Booking</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <h1>Explore Our Heritage Sites</h1>
+    <div class="heritage-container">
+        <a href="site1.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD_RUbI5PI9K9iLthrSBQr4c2U8JrSvt2Dog&s" class="heritage-item"></a>
+        <a href="site2.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbzZ8FVVuUMAsOAljLmAog22ElronjObn6uQ&s" class="heritage-item"></a>
+        <a href="site3.html"><img src="https://static.euronews.com/articles/stories/05/61/17/20/1200x675_cmsv2_69b97310-5fde-52fe-a877-3a4b66f37c95-5611720.jpg" class="heritage-item"></a>
+        <a href="site4.html"><img src="https://www.arteastic.in/blog/wp-content/uploads/2024/11/Amamzon-AI-Image-Nandi-1.jpg" class="heritage-item"></a>
+        <a href="site5.html"><img src="https://theheritageartifacts.com/cdn/shop/collections/3ebcd04001d94eece567cbc089983478.jpg?v=1678684834" class="heritage-item"></a>
+    </div>
+
+</body>
+</html>
